@@ -1,0 +1,19 @@
+{
+  "name": "common",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jay",
+  "license": "ISC",
+  "dependencies": {
+    "homepage": "^1.0.1",
+    "react": "^16.4.2",
+    "styled-components": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.0.0-beta.56"
+  }
+}
