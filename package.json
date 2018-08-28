@@ -1,0 +1,23 @@
+{
+  "name": "paradiselost",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.0.0-rc.0"
+  },
+  "scripts": {
+    "start:home": "lerna run develop --scope homepage --stream"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/app",
+      "packages/common",
+      "packages/homepage"
+    ],
+    "nohoist": [
+      "**/gatsby",
+      "**/gatsby/**"
+    ]
+  }
+}

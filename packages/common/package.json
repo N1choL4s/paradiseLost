@@ -1,0 +1,12 @@
+{
+  "name": "common",
+  "version": "1.0.0",
+  "description": "common",
+  "author": "Jay",
+  "license": "MIT",
+  "dependencies": {
+    "color": "^0.11.4",
+    "memoize-one": "^4.0.0",
+    "styled-components": "^3.4.2"
+  }
+}
